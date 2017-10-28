@@ -1,3 +1,159 @@
-/*
- * Estilos de tu proyecto
- */
+/*setear nuestros archivos: sea igual para todos los navegadores*/
+/* Estilos a body*/
+body {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+ padding-top: 75px;
+ line-height: 1.5;
+}
+/* Estilos a header*/
+header{
+font-family: 'Montserrat', sans-serif;
+ margin:0;
+ width: 100%;
+/* outline: 1px solid green;*/
+ text-transform: uppercase;
+ font-weight: 700;
+ background-color:#2c3e50;
+ position: fixed;
+ top: 0;
+ z-index: 1000;
+}
+header nav {
+  /*outline: 1px solid red;*/
+  width:95.6%;
+  margin:10px;
+}
+nav div {
+  display: inline-block;
+/*outline: 1px solid black;*/
+  width: 49.5%;
+}
+ul li{
+  position: relative;
+  left: 33%;
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+ a {
+  text-decoration: none;
+  color;
+  margin:0;
+  padding: 14px 7px;
+  color: #fff;
+  border-radius: 4px;
+}
+#bootstrap{
+  position: relative;
+  left: 29%;
+  font-size: 1.5em;
+}
+li a:hover{
+    color: #18bc9c;
+}
+li a:focus{
+    background-color: #18bc9c;
+    color: #fff;
+}
+/*ESTILOS A TODAS LAS SECCIONES Y FOOTER*/
+section {
+  outline: 1px solid green;
+  margin:0;
+  width: 100%;
+  padding: 100px 0;
+}
+h2, h3, h4 {
+  margin:0;
+}
+.container {
+  outline: 1px solid red;
+  width: 95%;
+  margin-left: 23px;
+  margin-right:0px;
+  padding: 15px;
+  text-align: center;
+}
+img {
+  vertical-align: middle;
+}
+/*ESTILOS A SECTION 1 (START BOOTSTRAP)*/
+h1 {
+ font-family: 'Montserrat', sans-serif;
+ font-size: 80px;
+ text-transform: uppercase;
+ font-weight:700;
+ color: #fff;
+}
+#bootstrap-text {
+  font-size: 1.75em;
+  font-weight: 300;
+  color: #fff;
+}
+.start-bootstrap {
+  background-color: #18bc9c;
+}
+/*ESTILOS A SECTION 2 (PORTFOLIO)*/
+/*Estilos para h2 para section 2(porfolio), 3(about) y 4(contact)*/
+div h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+   font-family: 'Montserrat', sans-serif;
+}
+.gallery {
+/*outline: 1px solid pink;*/
+margin: 0 155px;
+}
+/*Estilo a los bloques div que contienen a las imagenes del portafolio*/
+.images-portfolio {
+  /*outline: 1px solid blue;*/
+  display: inline-block;
+  width: 30%;
+  margin: 13.5px;
+  max-width: 100%;
+}
+/*estilos a las imagenes contenidas en los bloques "div" de portafolio*/
+.images-gallery {
+  max-width: 100%;
+}
+/*ESTILOS A SECTION 3 (ABOUT)*/
+#about {
+  background-color: #18bc9c;
+}
+#title-about {
+  color: #fff;
+}
+.information {
+  /*outline: 1px solid black;*/
+margin:0 155px;
+padding: 0 102px;
+}
+.information-column {
+  display: inline-block;
+  /*outline: 1px solid red;*/
+  width: 35%;
+}
+/*Estilos a los parrafos de section 3*/
+.text-about {
+  display: inline-block;
+  /*outline: 1px solid blue;*/
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-align: left;
+}
+/*Estilos al icono download*/
+.download {
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 7px;
+}
+/*ESTILOS A SECTION 4 (CONTACT)*/

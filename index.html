@@ -1,7 +1,6 @@
-<!-- Agrega aquí la estructura HTML de tu sitio web -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,16 +8,16 @@
   <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+ </head>
+ <body>
   <header>
     <nav>
       <div>
-        <a href="#">start bootstrap</a>
+        <a id="bootstrap" href="#bootstrap-1">start bootstrap</a>
       </div>
-      <div>
+      <div id="list-nav">
         <ul>
-          <li><a href="#portfolio">portafolio</a></li>
+          <li><a href="#portfolio">portfolio</a></li>
           <li><a href="#about">about</a></li>
           <li><a href="#contact">contact</a></li>
         </ul>
@@ -26,46 +25,46 @@
     </nav>
   </header>
   <!-- start bootstrap section -->
-  <section class="start bootstrap">
+  <section id="bootstrap-1"class="start-bootstrap">
     <div class="container">
       <img src="assets/images/profile.png" alt="profile">
-      <div>
+      <div class="text">
         <h1>start bootstrap</h1>
-        <h3>web developer-graphyc artist-user experience designer</h3>
+        <h3 id="bootstrap-text">web developer-graphyc artist-user experience designer</h3>
       </div>
     </div>
   </section>
   <!--portfolio section -->
-  <section class="portfolio">
+  <section id="portfolio">
     <div class="container">
       <h2>portfolio</h2>
       <div class="gallery">
-        <div class="images-portfolio"><a class="image-link"href="#"><img src="assets/images/portfolio/cabin.png" alt="cabin"></a></div>
-        <div class="images-portfolio"><a class="image-link"href="#"><img src="assets/images/portfolio/cake.png" alt="cake"></a></div>
-        <div class="images-portfolio"><a class="image-link"href="#"><img src="assets/images/portfolio/circus.png" alt="circus"></a></div>
-        <div class="images-portfolio"><a class="image-link"href="#"><img src="assets/images/portfolio/game.png" alt="game"></a></div>
-        <div class="images-portfolio"><a class="image-link"href="#"><img src="assets/images/portfolio/safe.png" alt="safe"></a></div>
-        <div class="images-portfolio"><a class="image-link"href="#"><img src="assets/images/portfolio/submarine.png" alt="submarine"></a></div>
+        <div class="images-portfolio"><a href="#"><img class="images-gallery" src="assets/images/portfolio/cabin.png" alt="cabin"></a></div>
+        <div class="images-portfolio"><a href="#"><img class="images-gallery"src="assets/images/portfolio/cake.png" alt="cake"></a></div>
+        <div class="images-portfolio"><a href="#"><img class="images-gallery"src="assets/images/portfolio/circus.png" alt="circus"></a></div>
+        <div class="images-portfolio"><a href="#"><img class="images-gallery"src="assets/images/portfolio/game.png" alt="game"></a></div>
+        <div class="images-portfolio"><a href="#"><img class="images-gallery"src="assets/images/portfolio/safe.png" alt="safe"></a></div>
+        <div class="images-portfolio"><a href="#"><img class="images-gallery"src="assets/images/portfolio/submarine.png" alt="submarine"></a></div>
       </div>
     </div>
   </section>
   <!-- about section -->
-  <section>
+  <section id="about">
     <div class="container">
-      <h2>about</h2>
+      <h2 id="title-about">about</h2>
       <div class="information">
         <div class="information-column">
-          <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+          <p class="text-about">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
         </div>
         <div class="information-column">
-          <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+          <p class="text-about">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
         </div>
-        <div><a href="#"><i class="fa fa-download" aria-hidden="true"></i>Download Theme</a></div>
+        <div><a class="download" href="#"><i class="fa fa-download" aria-hidden="true"></i>Download Theme</a></div>
       </div>
     </div>
   </section>
   <!-- contact section -->
-  <section>
+  <section id="contact">
     <div class="container">
       <h2>contact me</h2>
       <div class="form">
@@ -109,5 +108,5 @@
       </div>
     </div>
   </footer>
-</body>
+ </body>
 </html>
