@@ -157,3 +157,28 @@ padding: 0 102px;
   padding: 7px;
 }
 /*ESTILOS A SECTION 4 (CONTACT)*/
+.form {
+  outline: 1px solid blue;
+  margin:0 155px;
+}
+.form-1 {
+  outline: 1px solid red;
+  margin: 0 230px;
+}
+.data {
+    outline: 1px solid black;
+    padding: 33px 0;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+.input-text {
+font-size: 1.5em;
+padding-right: 0;
+padding-left: 0;
+border: none;
+border-radius: 0;
+width: 100%;
+}
+button{
+  background-color: #18bc9c;
+  padding: 10px;
+}
