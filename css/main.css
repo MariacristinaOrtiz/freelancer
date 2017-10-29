@@ -1,288 +1,312 @@
-/*setear nuestros archivos: sea igual para todos los navegadores*/
+/*SETEAR NUESTROS ARCHIVOS: sea igual para todos los navegadores*/
 /* Estilos a body*/
 body {
-  box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
-  margin: 0;
-  padding: 0;
- padding-top: 75px;
+ box-sizing: border-box;
+ font-family: 'Lato', sans-serif;
  line-height: 1.5;
+ margin: 0;
+ padding: 0;
+ padding-top: 75px;
 }
-/* Estilos a header*/
+/* ESTILOS AL ENCABEZADO*/
 header{
-font-family: 'Montserrat', sans-serif;
- margin:0;
- width: 100%;
-/* outline: 1px solid green;*/
- text-transform: uppercase;
- font-weight: 700;
  background-color:#2c3e50;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 700;
+ margin:0;
+  /* outline: 1px solid green;*/
  position: fixed;
+ text-transform: uppercase;
  top: 0;
+ width: 100%;
  z-index: 1000;
 }
 header nav {
-  /*outline: 1px solid red;*/
-  width:95.6%;
-  margin:10px;
+ margin:10px;
+ /*outline: 1px solid red;*/
+ width:95.6%;
 }
 nav div {
-  display: inline-block;
-/*outline: 1px solid black;*/
+ display: inline-block;
+ /*outline: 1px solid black;*/
   width: 49.5%;
 }
-ul li{
-  position: relative;
-  left: 33%;
-  list-style: none;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  letter-spacing: 1px;
-  font-size: 17px;
+/*Estilos a la lista que contiene la barra de menu(portfolio, about, contact)*/
+ul li {
+ font-size: 17px;
+ display: inline-block;
+ left: 33%;
+ letter-spacing: 1px;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ position: relative;
 }
- a {
-  text-decoration: none;
-  margin:0;
-  padding: 14px 7px;
-  color: #fff;
-  border-radius: 4px;
+ /*Estilos a los links, etiqueta reutilizable*/
+a {
+ border-radius: 4px;
+ color: #fff;
+ margin:0;
+ padding: 14px 7px;
+ text-decoration: none;
 }
+/*Estilos al div que contiene a "start bootstrap"*/
 #bootstrap{
-  position: relative;
-  left: 29%;
-  font-size: 1.5em;
+ font-size: 1.5em;
+ left: 29%;
+ position: relative;
 }
+/*Estilo pseudoclase a los link de la barra de menu (portfolio, about, acount)*/
 li a:hover{
-    color: #18bc9c;
+ color: #18bc9c;
 }
 li a:focus{
-    background-color: #18bc9c;
-    color: #fff;
+ background-color: #18bc9c;
+ color: #fff;
 }
 /*ESTILOS A TODAS LAS SECCIONES Y FOOTER*/
 section {
-  /*outline: 1px solid green;*/
-  margin:0;
-  width: 100%;
-  padding: 100px 0;
+ /*outline: 1px solid green;*/
+ margin:0;
+ padding: 100px 0;
+ width: 100%;
 }
 h1, h2, h3, h4 {
-  margin:0;
+ margin:0;
 }
 .container {
-  /*outline: 1px solid red;*/
-  width: 95%;
-  margin-left: 23px;
-  margin-right:0px;
-  padding: 15px;
-  text-align: center;
+ /*outline: 1px solid red;*/
+ margin-left: 23px;
+ margin-right:0px;
+ padding: 15px;
+ text-align: center;
+ width: 95%;
 }
 img {
-  vertical-align: middle;
+ vertical-align: middle;
 }
 /*ESTILOS PARA LAS SECCIONES 1 y 3 QUE CONTIENEN UNA ESTRELLA CON DOS LINEAS HORIZONTALES BLANCAS*/
 /*Estilos al icono start*/
 #start {
-  color:#fff;
-  font-size: 31px;
+ color:#fff;
+ font-size: 31px;
 }
 /*Estilos a los hr (linea horizontal)*/
 hr{
-  height: 5px;
-  background-color: #fff;
-  border: none;
+ background-color: #fff;
+ border: none;
+ height: 5px;
 }
 /*Estilos a los "hr" con el icono start*/
 .start-1 {
-  width: 7%;
-  display: inline-block;
+ display: inline-block;
+ width: 7%;
 }
 /*Estilo al padre("div") del icono start para las secciones 1,2,3 y 4*/
 #start-1-icon {
-  width: 2.5%;
+ width: 2.5%;
 }
 /*ESTILOS PARA LAS SECCIONES 1 y 3 QUE CONTIENEN UNA ESTRELLA CON DOS LINEAS HORIZONTALES NEGRAS*/
 /*Estilos al icono start*/
 #start-a {
-  color:#2c3e50;
-  font-size: 31px;
+ color:#2c3e50;
+ font-size: 31px;
 }
 /*Estilos a los "hr" con el icono start*/
 .start-2 {
-  background-color: #2c3e50;
-  width: 7%;
-  display: inline-block;
+ background-color: #2c3e50;
+ display: inline-block;
+ width: 7%;
 }
 /*ESTILOS A SECTION 1 (START BOOTSTRAP)*/
+/*Estilos al titulo "start bootstrap"*/
 h1 {
+ color: #fff;
  font-family: 'Montserrat', sans-serif;
  font-size: 80px;
- text-transform: uppercase;
  font-weight:700;
- color: #fff;
  margin-bottom: 5px;
+ text-transform: uppercase;
 }
+/*Estilos al texto incluido en la etiqueta h3 debajo del titulo "start bootstrap"*/
 #bootstrap-text {
-  font-size: 1.75em;
-  font-weight: 300;
-  color: #fff;
-  margin-bottom: 0;
+ color: #fff;
+ font-size: 1.75em;
+ font-weight: 300;
+ margin-bottom: 0;
 }
+/* Estilo a la section 1 (color de fondo)*/
 .start-bootstrap {
-  background-color: #18bc9c;
+ background-color: #18bc9c;
 }
 /*ESTILOS A SECTION 2 (PORTFOLIO)*/
 /*Estilos para h2 para section 2(porfolio), 3(about) y 4(contact)*/
 div h2 {
-  font-size: 50px;
-  text-transform: uppercase;
-  font-weight: 700;
-   font-family: 'Montserrat', sans-serif;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 50px;
+ font-weight: 700;
+ text-transform: uppercase;
 }
+/*Estilo al bloque div "gallery" para centrarlo*/
 .gallery {
-/*outline: 1px solid pink;*/
-margin: 0 155px;
+ /*outline: 1px solid pink;*/
+ margin: 0 155px;
 }
 /*Estilo a los bloques div que contienen a las imagenes del portafolio*/
 .images-portfolio {
-  /*outline: 1px solid blue;*/
-  display: inline-block;
-  width: 30%;
-  margin: 13.5px;
-  max-width: 100%;
+ /*outline: 1px solid blue;*/
+ display: inline-block;
+ margin: 13.5px;
+ max-width: 100%;
+ width: 30%;
 }
 /*estilos a las imagenes contenidas en los bloques "div" de portafolio*/
 .images-gallery {
-  max-width: 100%;
+ max-width: 100%;
 }
 /*ESTILOS A SECTION 3 (ABOUT)*/
+/*Estilo a la section about (color de fondo)*/
 #about {
-  background-color: #18bc9c;
+ background-color: #18bc9c;
 }
+/*Estilo al elemento h2 de section about*/
 #title-about {
-  color: #fff;
+ color: #fff;
 }
+/*Estilo al bloque div "information" para centrarlo*/
 .information {
-  /*outline: 1px solid black;*/
-margin:0 155px;
-padding: 0 102px;
+ /*outline: 1px solid black;*/
+ margin:0 155px;
+ padding: 0 102px;
 }
+/*Estilo a las columnas de la section about*/
 .information-column {
-  display: inline-block;
-  /*outline: 1px solid red;*/
-  width: 35%;
+ display: inline-block;
+ /*outline: 1px solid red;*/
+ width: 35%;
 }
 /*Estilos a los parrafos de section 3*/
 .text-about {
-  display: inline-block;
-  /*outline: 1px solid blue;*/
-  font-size: 20px;
-  font-weight: 400;
-  color: #fff;
-  text-align: left;
+ color: #fff;
+ display: inline-block;
+ font-size: 20px;
+ font-weight: 400;
+ /*outline: 1px solid blue;*/
+ text-align: left;
 }
 /*Estilos al icono download*/
 .download {
-  border: 2px solid white;
-  border-radius: 5px;
-  font-size: 20px;
-  font-weight: 400;
-  padding: 7px;
+ border: 2px solid white;
+ border-radius: 5px;
+ font-size: 20px;
+ font-weight: 400;
+ padding: 7px;
 }
 /*ESTILOS A SECTION 4 (CONTACT)*/
+/*Estilos al div "form" para centrarlo*/
 .form {
-/*  outline: 1px solid blue;*/
-  margin:0 155px;
+ /*  outline: 1px solid blue;*/
+ margin:0 155px;
 }
 /*Estilo al formulario elemento form*/
 .form-1 {
-  /*outline: 1px solid red;*/
-  margin: 0 230px;
+ /*outline: 1px solid red;*/
+ margin: 0 230px;
 }
 /*Estilos a los "div" que contienen a los "input"*/
 .data {
-  /*  outline: 1px solid black;*/
-    padding: 33px 0;
-    border-bottom: 1px solid rgb(240, 240, 240);
+ border-bottom: 1px solid rgb(240, 240, 240);
+ /*  outline: 1px solid black;*/
+ padding: 33px 0;
 }
 /*Estilos a cada uno de los "input"*/
 .input-text {
-font-size: 1.5em;
-padding-right: 0;
-padding-left: 0;
-border: none;
-border-radius: 0;
-width: 100%;
+ border: none;
+ border-radius: 0;
+ font-size: 1.5em;
+ padding-right: 0;
+ padding-left: 0;
+ width: 100%;
 }
+/*Estilos al elemnto button "send"*/
 button{
-  background-color: #18bc9c;
-  padding: 12px;
-  border-radius: 7px;
-  border: none;
-  font-size: 1.3em;
-  font-weight: 400;
-  color: white;
-  position: relative;
-  left: 0;
-  display: block;
+ background-color: #18bc9c;
+ border-radius: 7px;
+ border: none;
+ color: white;
+ display: block;
+ font-size: 1.3em;
+ font-weight: 400;
+ left: 0;
+ padding: 12px;
+ position: relative;
 }
 /* ESTILOS AL FOOTER*/
 footer {
-  background-color:#343a40;
+ background-color:#343a40;
 }
+/*Estilos al footer de arriba para que el float no afecte al footer de abajo (below)*/
 .footer-above {
-    clear:both;
+ clear:both;
 }
+/*Estilos a las columnas del footer above ("location" "around the web" y "about freelancer" )*/
 .column-footer {
-/*  outline: 1px solid blue;*/
-  float: left;
-  width: 30%;
-  color: #fff;
-  margin-bottom: 30px;
-  margin: auto;
+ /*  outline: 1px solid blue;*/
+ color: #fff;
+ float: left;
+ margin-bottom: 30px;
+ margin: auto;
+ width: 30%;
 }
+/*Estilo a los titulos dentro de las columnas*/
 h3 {
-  text-transform: uppercase;
-  font-size:  1.6rem;
-  font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
-  margin-bottom:30px;
-  margin-top: 25px;
+ font-family: 'Montserrat', sans-serif;
+ font-size:  1.6rem;
+ font-weight: 700;
+ margin-bottom:30px;
+ margin-top: 25px;
+ text-transform: uppercase;
 }
+/*Estilo a los textos dentro de las columnas (P)*/
 .text-footer {
-  font-size:20px;
-  margin-bottom: 80px;
+ font-size:20px;
+ margin-bottom: 80px;
 }
+/*Estilos a los iconos de redes sociales*/
 .network-icon{
-  border-radius: 100%;
-  border: 2px solid white;
-  padding: 10px 7px;
-  display: inline-block;
-  margin:4px;
+ border: 2px solid white;
+ border-radius: 100%;
+ display: inline-block;
+ margin:4px;
+ padding: 10px 7px;
 }
+/*Estilo personalizado al icono fb*/
 #facebook {
-  padding: 10px 10px;
+ padding: 10px 10px;
 }
+/*Estilo personalizado al icono google*/
 #google {
-padding: 10px 4.1px;
+ padding: 10px 4.1px;
 }
+/*Estilo a los iconos de redes sociales*/
 .fa {
-  font-size: 20px;
+ font-size: 20px;
 }
+/*Estilos a la etiqueta "a" de la tercera columna*/
 #footer-link {
-  color:#18bc9c;
+ color:#18bc9c;
 }
 #footer-link:hover {
-  text-decoration: underline;
+ text-decoration: underline;
 }
+/*Estilos a footer below*/
 h4 {
-  /*outline: 1px solid blue;*/
-  color:white;
-  font-size: 15px;
-  font-weight: lighter;
-  margin-bottom: 7px;
-  position: relative;
-  left:230px;
-  width: 60%;
+ /*outline: 1px solid blue;*/
+ color:white;
+ font-size: 15px;
+ font-weight: lighter;
+ left:230px;
+ margin-bottom: 7px;
+ position: relative;
+ width: 60%;
 }
