@@ -62,12 +62,12 @@ li a:focus{
 }
 /*ESTILOS A TODAS LAS SECCIONES Y FOOTER*/
 section {
-  outline: 1px solid green;
+  /*outline: 1px solid green;*/
   margin:0;
   width: 100%;
   padding: 100px 0;
 }
-h2, h3, h4 {
+h1, h2, h3, h4 {
   margin:0;
 }
 .container {
@@ -81,6 +81,39 @@ h2, h3, h4 {
 img {
   vertical-align: middle;
 }
+/*ESTILOS PARA LAS SECCIONES 1 y 3 QUE CONTIENEN UNA ESTRELLA CON DOS LINEAS HORIZONTALES BLANCAS*/
+/*Estilos al icono start*/
+#start {
+  color:#fff;
+  font-size: 31px;
+}
+/*Estilos a los hr (linea horizontal)*/
+hr{
+  height: 5px;
+  background-color: #fff;
+  border: none;
+}
+/*Estilos a los "hr" con el icono start*/
+.start-1 {
+  width: 7%;
+  display: inline-block;
+}
+/*Estilo al padre("div") del icono start para las secciones 1,2,3 y 4*/
+#start-1-icon {
+  width: 2.5%;
+}
+/*ESTILOS PARA LAS SECCIONES 1 y 3 QUE CONTIENEN UNA ESTRELLA CON DOS LINEAS HORIZONTALES NEGRAS*/
+/*Estilos al icono start*/
+#start-a {
+  color:#2c3e50;
+  font-size: 31px;
+}
+/*Estilos a los "hr" con el icono start*/
+.start-2 {
+  background-color: #2c3e50;
+  width: 7%;
+  display: inline-block;
+}
 /*ESTILOS A SECTION 1 (START BOOTSTRAP)*/
 h1 {
  font-family: 'Montserrat', sans-serif;
@@ -88,11 +121,13 @@ h1 {
  text-transform: uppercase;
  font-weight:700;
  color: #fff;
+ margin-bottom: 5px;
 }
 #bootstrap-text {
   font-size: 1.75em;
   font-weight: 300;
   color: #fff;
+  margin-bottom: 0;
 }
 .start-bootstrap {
   background-color: #18bc9c;
