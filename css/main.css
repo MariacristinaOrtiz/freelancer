@@ -43,7 +43,6 @@ ul li{
 }
  a {
   text-decoration: none;
-  color;
   margin:0;
   padding: 14px 7px;
   color: #fff;
@@ -72,7 +71,7 @@ h2, h3, h4 {
   margin:0;
 }
 .container {
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   width: 95%;
   margin-left: 23px;
   margin-right:0px;
@@ -158,18 +157,21 @@ padding: 0 102px;
 }
 /*ESTILOS A SECTION 4 (CONTACT)*/
 .form {
-  outline: 1px solid blue;
+/*  outline: 1px solid blue;*/
   margin:0 155px;
 }
+/*Estilo al formulario elemento form*/
 .form-1 {
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   margin: 0 230px;
 }
+/*Estilos a los "div" que contienen a los "input"*/
 .data {
-    outline: 1px solid black;
+  /*  outline: 1px solid black;*/
     padding: 33px 0;
     border-bottom: 1px solid rgb(240, 240, 240);
 }
+/*Estilos a cada uno de los "input"*/
 .input-text {
 font-size: 1.5em;
 padding-right: 0;
@@ -180,5 +182,72 @@ width: 100%;
 }
 button{
   background-color: #18bc9c;
-  padding: 10px;
+  padding: 12px;
+  border-radius: 7px;
+  border: none;
+  font-size: 1.3em;
+  font-weight: 400;
+  color: white;
+  position: relative;
+  left: 0;
+  display: block;
+}
+/* ESTILOS AL FOOTER*/
+footer {
+  background-color:#343a40;
+}
+.footer-above {
+    clear:both;
+}
+.column-footer {
+/*  outline: 1px solid blue;*/
+  float: left;
+  width: 30%;
+  color: #fff;
+  margin-bottom: 30px;
+  margin: auto;
+}
+h3 {
+  text-transform: uppercase;
+  font-size:  1.6rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom:30px;
+  margin-top: 25px;
+}
+.text-footer {
+  font-size:20px;
+  margin-bottom: 80px;
+}
+.network-icon{
+  border-radius: 100%;
+  border: 2px solid white;
+  padding: 10px 7px;
+  display: inline-block;
+  margin:4px;
+}
+#facebook {
+  padding: 10px 10px;
+}
+#google {
+padding: 10px 4.1px;
+}
+.fa {
+  font-size: 20px;
+}
+#footer-link {
+  color:#18bc9c;
+}
+#footer-link:hover {
+  text-decoration: underline;
+}
+h4 {
+  /*outline: 1px solid blue;*/
+  color:white;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-bottom: 7px;
+  position: relative;
+  left:230px;
+  width: 60%;
 }
