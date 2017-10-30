@@ -21,7 +21,7 @@ Se muestra el replicado, solo maquetación, de la página web **freelancer** (la
 
 - ESTILOS AL **ENCABEZADO**:
 
-  HEADER-/HEADER:
+  <HEADER></HEADER>:
 
     - Aplicar color de fondo negro (#2c3e50);
     - Aplicar tipo de letra: _Montserrat_;
@@ -31,16 +31,16 @@ Se muestra el replicado, solo maquetación, de la página web **freelancer** (la
     - Aplicar un ancho de 100% para que ocupe todo el ancho de la página;
     - Aplicar un Z-index 1000 para que se superponga a la section 1;
 
-  NAV-/NAV> (hijo de HEADER):
+  <NAV> </NAV> (hijo de HEADER):
 
     - Aplicar margen cero y un ancho de 95.6% con respecto a su padre HEADER;
 
-  DIV-/DIV (hijos de NAV):
+  <DIV></DIV> (hijos de NAV):
 
     - Aplicar display en linea pero manteniendo la propiedad de bloque (inline-block);
     - Aplicar un ancho de 49.5% conrespecto a NAV (su padre);
 
-  li-/li( hijo de ul y nieto de DIV)(barra de menú):
+  <li></li>( hijo de ul y nieto de DIV)(barra de menú):
 
     - Aplicar display en linea pero manteniendo la propiedad de bloque (inline-block);
     - Aplicar tamaño de letra 17px, espacio entre cada letra de 1px;
