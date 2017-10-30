@@ -25,9 +25,9 @@ Se muestra el replicado, solo maquetación, de la página web **freelancer** (la
 
     - Aplicar color de fondo negro (#2c3e50);
     - Aplicar tipo de letra: _Montserrat_;
-    - Aplicar grosor de letra: 700; Escribir margen: 0;
-    - Posicionar fijamente(**fixed**) con posicion parte superior cero;
-    - Transfromar el texto a Mayuscula;
+    - Aplicar grosor de letra: 700; y margen cero;
+    - Posicionar fijamente(**fixed**) con posición parte superior cero;
+    - Transfromar el texto a Mayúscula;
     - Aplicar un ancho de 100% para que ocupe todo el ancho de la página;
     - Aplicar un Z-index 1000 para que se superponga a la section 1;
 
@@ -38,13 +38,13 @@ Se muestra el replicado, solo maquetación, de la página web **freelancer** (la
    DIV-/DIV (hijos de NAV):
 
     - Aplicar display en linea pero manteniendo la propiedad de bloque (inline-block);
-    - Aplicar un ancho de 49.5% conrespecto a NAV (su padre);
+    - Aplicar un ancho de 49.5% con respecto a NAV (su padre);
 
-   LI-/li>( hijo de ul y nieto de DIV)(barra de menú):
+   LI-/li ( hijo de ul y nieto de DIV)(barra de menú):
 
     - Aplicar display en linea pero manteniendo la propiedad de bloque (inline-block);
     - Aplicar tamaño de letra 17px, espacio entre cada letra de 1px;
-    - Posicionar en forma "relative" un 33% a la derecha respecto a su posicion actual;
+    - Posicionar en forma "relative" un 33% a la derecha respecto a su posición actual;
     - Aplicar un margen y relleno cero;
     - Aplicar una pseudoclase: **hover** con color de letra: #18bc9c;
     - Aplicar una pseudoclase: **focus** con color de fondo: #18bc9c y color de letra blanco;
@@ -61,7 +61,7 @@ Se muestra el replicado, solo maquetación, de la página web **freelancer** (la
     - Posicionar en forma "relative" un 29% a la derecha respecto de su posición actual;
     - aplicar un tamaño de letra 1.5 em;
 
-- ESTILOS GENERALES EN COMUN PARA LAS SECCIONES 1(START BOOTSTRAP),2(PORTFOLIO),3(ABOUT) Y 4(CONTACT ME); Y PIE DE PÁGINA(FOOTER):
+- ESTILOS GENERALES EN COMÚN PARA LAS SECCIONES 1(START BOOTSTRAP), 2(PORTFOLIO), 3(ABOUT) Y 4(CONTACT ME); Y PIE DE PÁGINA(FOOTER):
 
    SECTION-/SECTION:
 
@@ -113,7 +113,7 @@ Se muestra el replicado, solo maquetación, de la página web **freelancer** (la
 
    H1-/H1> (nieto de DIV.container):
 
-    - Aplicar tipo de letra _Montserrat_ con color blanco, con tamaño de letra 80px, con grosor 700 y en mayuscula;    
+    - Aplicar tipo de letra _Montserrat_ con color blanco, con tamaño de letra 80px, con grosor 700 y en mayúscula;    
     - Aplicar un margen inferior de 5px;
 
    H3 ID=bootstrap-text-/H3 (nieto de DIV.container):
@@ -138,11 +138,11 @@ Se muestra el replicado, solo maquetación, de la página web **freelancer** (la
    DIV .images-portfolio-/DIV (nietos de DIV. container, hijo de DIV .gallery)(galería de imágenes):
 
     - Aplicar display en linea pero manteniendo la propiedad de bloque (inline-block), un ancho de 30% para dividir columnas de tres;
-    - aplicar un margen de 13.5px para el espacion entre las imagenes;
+    - aplicar un margen de 13.5px para el espacion entre las imágenes;
 
   IMG .images-gallery (hijo de DIV .images-portfolio )(imagenes de la galeria):
 
-    - Aplicar un ancho maximo de ancho de 100% para que cada imagen se ajuste a  su contenido en un 100%;
+    - Aplicar un ancho máximo de ancho de 100% para que cada imagen se ajuste a  su contenido en un 100%;
 
 - ESTILOS A SECTION 3 (ABOUT):
 
@@ -169,7 +169,7 @@ Se muestra el replicado, solo maquetación, de la página web **freelancer** (la
 
    A .download-/A (nieto de DIV .information-column):
 
-    - Aplicar un borde radio de lineas solidas de 2px de color blanco;
+    - Aplicar un borde radio de líneas solidas de 2px de color blanco;
     - Aplicar un tamaño de letra de 20px, con un grosor de 400;
     - Aplicar un relleno de 7px;
 
@@ -216,8 +216,8 @@ Se muestra el replicado, solo maquetación, de la página web **freelancer** (la
 
    H3-/H3 (hijos de DIV .column-footer):
 
-    - Aplicar tipo de letra _Montserrat_, con tamaño de letra 1.6rem, con grosor 700 y en mayuscula;
-    - Aplicar un margin inferior y superior de 30px y 25px respectivamente;
+    - Aplicar tipo de letra _Montserrat_, con tamaño de letra 1.6rem, con grosor 700 y en mayúscula;
+    - Aplicar un margen inferior y superior de 30px y 25px respectivamente;
 
    P .text-footer-/P (hijos del segundo DIV .column-footer):
 
@@ -225,7 +225,7 @@ Se muestra el replicado, solo maquetación, de la página web **freelancer** (la
 
    DIV .network-icon-/DIV> (nietos del segundo DIV .column-footer)(iconos de red social):
 
-    - Aplicar un borde radio de 100% con lineas solidas de 2px color blanco;
+    - Aplicar un borde radio de 100% con líneas solidas de 2px color blanco;
     - Aplicar display en linea pero manteniendo la propiedad de bloque (inline-block);
     - Aplicar un margen de 4px, un relleno superior e inferior de 10px izquierda y derecha de 7px;
 
