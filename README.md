@@ -11,14 +11,18 @@ Se muestra el replicado, solo maquetación, de la página web **freelancer** (la
 ## Pseudocódigo (main.CSS)
 
 - SETEAR NUESTROS ARCHIVOS para que sea igual para todos los navegadores para ello se agrega estilos a _BODY_.
+
   BODY:
+
     - Aplicar box-sizing:border-box; (para que se respete el ancho de las cajas)
     - Aplicar tipo de letra: _lato_;
     - Aplicar alto de línea: 1.5;
     - Aplicar margen y relleno: 0;
 
 - ESTILOS AL **ENCABEZADO**:
-  <HEADER></HEADER>:
+
+  HEADER-/HEADER:
+
     - Aplicar color de fondo negro (#2c3e50);
     - Aplicar tipo de letra: _Montserrat_;
     - Aplicar grosor de letra: 700; Escribir margen: 0;
@@ -27,14 +31,17 @@ Se muestra el replicado, solo maquetación, de la página web **freelancer** (la
     - Aplicar un ancho de 100% para que ocupe todo el ancho de la página;
     - Aplicar un Z-index 1000 para que se superponga a la section 1;
 
-  <NAV></NAV> (hijo de HEADER):
+  NAV-/NAV> (hijo de HEADER):
+
     - Aplicar margen cero y un ancho de 95.6% con respecto a su padre HEADER;
 
-  <DIV></DIV> (hijos de NAV):
+  DIV-/DIV (hijos de NAV):
+
     - Aplicar display en linea pero manteniendo la propiedad de bloque (inline-block);
     - Aplicar un ancho de 49.5% conrespecto a NAV (su padre);
 
-  <li></li>( hijo de ul y nieto de DIV)(barra de menú):
+  li-/li( hijo de ul y nieto de DIV)(barra de menú):
+
     - Aplicar display en linea pero manteniendo la propiedad de bloque (inline-block);
     - Aplicar tamaño de letra 17px, espacio entre cada letra de 1px;
     - Posicionar en forma "relative" un 33% a la derecha respecto a su posicion actual;
@@ -198,4 +205,4 @@ Se muestra el replicado, solo maquetación, de la página web **freelancer** (la
 
 ## Imagen usado para el replicado
 
-![Freelancer Website](docs/fullpage.png)
+![Freelancer Website](https://github.com/MariacristinaOrtiz/freelancer/blob/master/assets/docs/fullpage.png)
