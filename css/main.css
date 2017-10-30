@@ -61,9 +61,10 @@ li a:hover{
  color: #18bc9c;
 }
 li a:focus{
- background-color: #18bc9c;
- color: #fff;
+ background-color:  #18bc9c;
+ color:  #fff;
 }
+
 /*ESTILOS A TODAS LAS SECCIONES Y FOOTER*/
 section {
  /*outline: 1px solid green;*/
